@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { handleScrollToBottom } from "../utils/scroll";
 
 const StyledNavbar = styled.nav`
   ul {
@@ -31,13 +32,6 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 const Navbar = ({ cartItemCount }) => {
-  const handleScrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
-
   return (
     <StyledNavbar>
       <ul>
