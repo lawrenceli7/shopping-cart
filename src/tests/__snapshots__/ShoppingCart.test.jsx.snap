@@ -1,0 +1,161 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ShoppingCart Component > should calculate and display the total price 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered sc-aYaIB iKlttL css-dev-only-do-not-override-3rel02"
+  >
+    <div
+      class="ant-card-body"
+    >
+      <h2>
+        Shopping Cart
+      </h2>
+      <ul>
+        <li>
+          Item 1 - 2 x $10
+        </li>
+        <li>
+          Item 2 - 1 x $15
+        </li>
+      </ul>
+      <h3>
+        Total: $35.00
+      </h3>
+      <button
+        class="ant-btn css-dev-only-do-not-override-3rel02 ant-btn-default"
+        type="button"
+      >
+        <span>
+          Checkout
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ShoppingCart Component > should display a message when the cart is empty 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered sc-aYaIB iKlttL css-dev-only-do-not-override-3rel02"
+  >
+    <div
+      class="ant-card-body"
+    >
+      <h2>
+        Shopping Cart
+      </h2>
+      <p>
+        Your cart is empty
+      </p>
+      <h3>
+        Total: $0.00
+      </h3>
+      <button
+        class="ant-btn css-dev-only-do-not-override-3rel02 ant-btn-default"
+        type="button"
+      >
+        <span>
+          Checkout
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ShoppingCart Component > should render items in the cart 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered sc-aYaIB iKlttL css-dev-only-do-not-override-3rel02"
+  >
+    <div
+      class="ant-card-body"
+    >
+      <h2>
+        Shopping Cart
+      </h2>
+      <ul>
+        <li>
+          Item 1 - 2 x $10
+        </li>
+        <li>
+          Item 2 - 1 x $15
+        </li>
+      </ul>
+      <h3>
+        Total: $35.00
+      </h3>
+      <button
+        class="ant-btn css-dev-only-do-not-override-3rel02 ant-btn-default"
+        type="button"
+      >
+        <span>
+          Checkout
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ShoppingCart Component > should render the checkout button 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered sc-aYaIB iKlttL css-dev-only-do-not-override-3rel02"
+  >
+    <div
+      class="ant-card-body"
+    >
+      <h2>
+        Shopping Cart
+      </h2>
+      <p>
+        Your cart is empty
+      </p>
+      <h3>
+        Total: $0.00
+      </h3>
+      <button
+        class="ant-btn css-dev-only-do-not-override-3rel02 ant-btn-default"
+        type="button"
+      >
+        <span>
+          Checkout
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ShoppingCart Component > should render the shopping cart title 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered sc-aYaIB iKlttL css-dev-only-do-not-override-3rel02"
+  >
+    <div
+      class="ant-card-body"
+    >
+      <h2>
+        Shopping Cart
+      </h2>
+      <p>
+        Your cart is empty
+      </p>
+      <h3>
+        Total: $0.00
+      </h3>
+      <button
+        class="ant-btn css-dev-only-do-not-override-3rel02 ant-btn-default"
+        type="button"
+      >
+        <span>
+          Checkout
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
