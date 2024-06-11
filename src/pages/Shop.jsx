@@ -1,8 +1,14 @@
 import { useEffect, useState } from "react";
+import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import ProductCard from "../components/ProductCard";
 import ShoppingCart from "../components/ShoppingCart";
 import { fetchProducts } from "../utils/api";
+
+const StyledGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+`;
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
@@ -38,7 +44,7 @@ const Shop = () => {
   return (
     <div>
       <Navbar cartItemCount={cartItemCount} />
-      <div className="products">
+      <StyledGrid>
         {products.map((product) => (
           <ProductCard
             key={product.id}
@@ -46,7 +52,7 @@ const Shop = () => {
             addToCart={addToCart}
           />
         ))}
-      </div>
+      </StyledGrid>
       <ShoppingCart cart={cart} />
     </div>
   );

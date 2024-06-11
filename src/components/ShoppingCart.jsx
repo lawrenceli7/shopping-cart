@@ -1,23 +1,15 @@
+import { Button, Card } from "antd";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const StyledShoppingCart = styled.div`
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
+const StyledShoppingCart = styled(Card)`
+  border: 1px solid black;
+  margin: 10px;
   text-align: center;
 
   ul {
     list-style-type: none;
     padding: 0;
-  }
-
-  button {
-    font-size: 15px;
-    padding: 10px;
-    margin: 1px;
-    border: none;
-    background-color: #f0f0f0;
-    cursor: pointer;
   }
 `;
 
@@ -43,9 +35,13 @@ const ShoppingCart = ({ cart }) => {
         </ul>
       )}
       <h3>Total: ${getTotal()}</h3>
-      <button>Checkout</button>
+      <Button>Checkout</Button>
     </StyledShoppingCart>
   );
+};
+
+ShoppingCart.propTypes = {
+  cart: PropTypes.array.isRequired,
 };
 
 export default ShoppingCart;
